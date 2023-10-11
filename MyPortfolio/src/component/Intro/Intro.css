@@ -1,0 +1,72 @@
+
+.intoContent{
+   height: 90vh;
+   width: 100vw; 
+   
+   padding: 2rem;
+   font-size: 3rem;
+   font-weight: 700;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap;
+   max-width: 75rem;
+   
+    
+}
+span{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.hello{
+    font-size: 2rem;
+    font-weight: 100; 
+}
+.intorName{
+    color: yellow;
+}
+#bag{
+    margin-right: 1rem;
+}
+.bg{
+   position: absolute;
+   top: -4rem; 
+   right: 0; 
+   z-index: -1; 
+   object-fit: cover; 
+   height: 100vh; 
+}
+.introPara{
+ font-size: medium;
+ font-weight: 100;
+ margin-top: 1rem;
+}
+
+.btn{
+    background-color: white;
+    margin: 1rem 0;  
+    padding: 0.2rem 0.5rem; 
+    padding-right: 1.3rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+@media  screen and (max-width: 840px) {
+    .bg{
+        right: -10vw;
+    }
+    .introContact{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+    
+}
+@media screen  and (max-width: 480px){
+    .bg{
+        right: -20vw;
+    }
+    
+}
